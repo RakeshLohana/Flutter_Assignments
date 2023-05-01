@@ -32,32 +32,6 @@ class Page1 extends StatelessWidget {
                ),
               ],
             ),
-
-            // child: Column(
-            //   children: [
-            //     Container (
-            //        height: 20,
-            //       decoration: const BoxDecoration(
-            //         color: Colors.green
-            //       ),
-
-            //     child:const Center(
-            //       child: Text("20%",style: TextStyle(color: Colors.black,fontSize: 25),),
-            //     ),
-            //     ),
-            //      Container (
-            //        height: 20,
-            //       decoration: const BoxDecoration(
-            //         color: Colors.green
-            //       ),
-
-            //     child: const Center(
-            //       child: Text("20%",style: TextStyle(color: Colors.black,fontSize: 25),),
-            //     ),
-            //     )
-
-            //   ],
-
           ),
     );
   }
