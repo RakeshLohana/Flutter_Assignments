@@ -11,6 +11,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
+    double width1=250;
     return Scaffold(
       backgroundColor: Colors.yellow,
       appBar: AppBar(
@@ -24,14 +25,14 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               Container(
                 height: 150,
-                width: 150,
+                width: width1,
                 color: Colors.blue,
                 child: Center(
                   child:Text('CONSTANT 3') ),
               ),
               Container(
                 height: 150,
-                width: 150,
+                width: width1,
                 color: const Color.fromARGB(255, 31, 128, 34),
                 child: Center(
                   child:Text('CONSTANT 4') ),
@@ -43,14 +44,14 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               Container(
                 height: 150,
-                width: 150,
+                width: width1,
                 color: Color.fromARGB(255, 148, 30, 169),
                 child: Center(
                   child:Text('CONSTANT 5') ),
               ),
               Container(
                 height: 150,
-                width: 150,
+                width: width1,
                 color: const Color.fromARGB(255, 87, 167, 232),
                 child: Center(
                   child:Text('CONSTANT 6') ),
